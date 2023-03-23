@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 112, 238);
+}
+.container{
+    border: 2px solid black;
+    display: block;
+    justify-content: center;
+    width: 300px;
+    margin: 10px 500px;
+    padding: 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: white;
+}
+.app-title ,p{
+    background-color: white;
+    text-align: center;
+}
+.weather-icon ,img{
+    background-color: white;
+    text-align: center;
+}
+.temperature-value p,span{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.notifications{
+    height: 40px;
+    display: none;
+    background-color: white;
+}
+.notifications p{
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
